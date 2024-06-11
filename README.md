@@ -89,7 +89,9 @@ cd
 10.链接<br/>
 [链接标题](URL地址 可选title属性)<br/>
 
-[github](https://github.com/ github网址)
+[github](https://github.com/ github网址)<br/>
+
+[点击](https://github.com/ github网站)<br/>
 
 特例:<br/>
 [链接1](https://github.com/)<br/>
@@ -119,7 +121,7 @@ ___
 分割：<br/>
 ---
 
-13.颜色<br/>
+13.颜色?<br/>
 
 > 字体颜色语法：<font face='黑体' color=#ff0000 size=4>我是正>文</font>
 <font face='黑体' color=#ff0000 size=4>我是正文</font>
@@ -140,7 +142,7 @@ ___
 
 16.注释<br/>
 线面一行为注释:<br/>
-[//]:注释
+[//]:注释?
 
 
 @[TOC](目录)
