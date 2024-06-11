@@ -89,9 +89,7 @@ cd
 10.链接<br/>
 [链接标题](URL地址 可选title属性)<br/>
 
-[github](https://github.com/ github网址)<br/>
-
-[点击](https://github.com/ github网站)<br/>
+[github](https://github.com/ "github网址")<br/>
 
 特例:<br/>
 [链接1](https://github.com/)<br/>
