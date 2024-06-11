@@ -11,16 +11,19 @@ Markdown基本语法
 
 2.索引（内容目录）
 
-3.强调文本
+3.强调文本<br/>
 **加粗文本**<br/>
 __加粗文本2__<br/>
 *斜体文本*<br/>
 _斜体文本2_<br/>
-==标记文本==<br/>
+==我是标记==<br/>
 <u>下划线文本</u> <br/>
 ~~中划线~~<br/>
 **粗体和嵌入的_斜体_**<br/>
 ***全部粗体和斜体***<br/>
+
+
+
 
 4.内容换行、居中
 <center>这一行需要居中</center><br/>
@@ -75,15 +78,17 @@ ls -a
 touch
 cd
 ```
+行内代码：<br/>
+输出hello world: `printf("hello world")`
 
 9.任务列表<br/>
-* [ ]代办1
-* [ ]代办2
-* [×]完成1
+- [ ] 计划任务
+- [x] 完成任务
+
 
 10.链接<br/>
 [链接标题](URL地址 可选title属性)<br/>
-[github](https://github.com/)
+[github](https://github.com/ github网址)
 
 特例:<br/>
 [链接1](https://github.com/)<br/>
@@ -109,5 +114,31 @@ cd
 ***
 分割：<br/>
 ___
+
 分割：<br/>
 ---
+
+13.颜色<br/>
+
+> 字体颜色语法：<font face='黑体' color=#ff0000 size=4>我是正>文</font>
+<font face='黑体' color=#ff0000 size=4>我是正文</font>
+> 背景颜色：<table><tr><td bgcolor=orange>背景色是：orange</td></tr></table>
+<table><tr><td bgcolor=orange>背景色是：orange</td></tr></table>
+
+14.特殊符号<br/>
+\\ 表示一个反斜线<br/>
+\* 表示一个*<br/>
+\{\} 表示{}<br/>
+
+15.文本框<br/>
+上面空一行，每行文本前空四个空格
+
+    此处为文本框<br/>
+    此处还为<br/>
+    ...<br/>
+
+16.注释<br/>
+线面一行为注释:<br/>
+[//]:我是注释
+
+@[TOC](目录)
